@@ -1,0 +1,19 @@
+{
+    "name": "home-api",
+    "version": "1.0.0",
+    "description": "Home Automation API",
+    "main": "src/index.js",
+    "scripts": {
+        "dev": "nodemon src/index.js -e js,yaml",
+        "start": "node src/index.js"
+    },
+    "dependencies": {
+        "mqtt": "4.2.1",
+        "express": "4.17.1",
+        "lodash": "4.17.15"
+    },
+    "devDependencies": {
+        "nodemon": "1.18.4"
+    },
+    "keywords": []
+}
